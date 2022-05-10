@@ -41,6 +41,7 @@
             justify-content: space-around;
             padding: 20px;
             transition: all 1s ease;
+            background-color: rgb(32, 24, 24);
 
             @include mobile{
                 height: 180px;
@@ -88,7 +89,10 @@
             }
             .center{
                 padding: 10px;
-                background-color: rgb(250, 244, 245);
+                margin: auto;
+                // background-color: rgb(250, 244, 245);
+                font-size: 30px;
+                color: white;
             
                 @include mobile{
                     font-size: 12px;

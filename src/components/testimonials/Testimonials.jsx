@@ -10,7 +10,7 @@ function Testimonials() {
       title: "web design",
       img: "./assets/black.jpg",
       icon: "./assets/wtm.jpg",
-      desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. " ,
+      desc:"HTML/CSS" ,
      
     },
 
@@ -20,19 +20,16 @@ function Testimonials() {
       title: "web design",
       img: "./assets/white.jpg",
       icon: "./assets/wtm.jpg",
-      desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit." ,
+      desc:"Javascript" ,
       featured: true,
     },
 
     {
       id: "3",
-      name: "Alex Harold",
-      title: "web design",
-      img: "./assets/black.jpg",
-      icon: "./assets/wtm.jpg",
-      desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. " ,
+      desc:" Reactjs " ,
      
     },
+    
 
 
    
@@ -40,21 +37,21 @@ function Testimonials() {
   ];
   return (
     <div className='testimonials' id='testimonials'>
-      <h1>Testimonials</h1>
+      <h1>Skills</h1>
       <div className="container">
       {data.map((d) => (
         <div className={d.featured ? "card featured" : "card"}>
           <div className="top">
-            <img src="assets/dropdown.jpg" className="left"alt="" />
+            {/* <img src="assets/dropdown.jpg" className="left"alt="" />
             <img className = "user" src={d.img} alt="" />
-            <img className = "right" src={d.icon} alt="" />
+            <img className = "right" src={d.icon} alt="" /> */}
           </div>
           <div className="center">
             {d.desc}
           </div>
           <div className="bottom">
-            <h3>{d.name}</h3>
-            <h4>{d.title}</h4>
+            {/* <h3>{d.name}</h3>
+            <h4>{d.title}</h4> */}
           </div>
 
         </div>

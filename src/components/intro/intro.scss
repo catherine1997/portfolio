@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .intro{
-    background-color: white;
+    background-color: black;
     display: flex;
 
     @include mobile{
@@ -49,6 +49,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            color: white;
 
             @include mobile{
                 padding-left: 0;

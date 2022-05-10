@@ -1,7 +1,7 @@
 
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
-import Works from "./components/works/Works";
+// import Works from "./components/works/Works";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Testimonials from "./components/testimonials/Testimonials";
@@ -21,7 +21,7 @@ function App() {
     
       <Intro/>
       <Portfolio />
-      <Works />
+      {/* <Works /> */}
       <Testimonials />
       <Contact />
     </div>
