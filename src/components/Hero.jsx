@@ -55,7 +55,7 @@ const Hero =()=> {
             className='flex flex-col items-center lg:items-start mt-10'>
                 <motion.h2 
                 variants={childVariants}
-                className='pb-2 text-4xl tracking-tighter lg:text-8xl'>
+                className='pb-2 text-3xl tracking-tighter lg:text-8xl'>
                     Baha Catherine Maigida
                 </motion.h2>
                 <motion.span 
