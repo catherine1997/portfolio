@@ -1,9 +1,10 @@
 import React from 'react';
 import {RiGithubFill, RiJavascriptLine, RiReactjsLine, RiTailwindCssFill} from "react-icons/ri"
 import { SiChakraui } from "react-icons/si";
-import { FaCss3, FaHtml5 } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaPython } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { animate, motion } from 'framer-motion';
+import { DiDjango } from "react-icons/di";
 
 const iconVariants = (duration) => ({
     initial: {y: -10},
@@ -95,7 +96,15 @@ const Technologies =() => {
              animate="animate"
              variants={iconVariants(6)}
             className='p-4'>
-                <SiTypescript className='text-7xl'/>
+                <FaPython className='text-7xl'/>
+            </motion.div>
+
+            <motion.div 
+             initial="initial"
+             animate="animate"
+             variants={iconVariants(2)}
+            className='p-4'>
+                <DiDjango className='text-7xl'/>
             </motion.div>
         </motion.div>
     </div>

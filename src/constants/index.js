@@ -46,7 +46,7 @@ Head a team in pitching a product and contributing to the development of the pro
     company: " JD Lab ",
     description: `Built a blogging system using Django Framework, where users can manage, publish and create blog post. Developed and maintained user-facing webpages using HTML, CSS, JavaScript and jQuery.
 `,
-    technologies: ["Python", "HTML", "CSS", "Javascript"],
+    technologies: ["Python", "Django Framework","HTML", "CSS", "Javascript"],
   },
 ];
 
@@ -70,6 +70,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    link: "https://portfolio-sigma-one-56.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["TailwindCss", "CSS", "Javascript", "React"],
@@ -79,7 +80,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Javascript"],
+    technologies: ["Python", "Django Framework"],
   },
 ];
 
